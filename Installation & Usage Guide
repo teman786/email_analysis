@@ -1,0 +1,106 @@
+# ⚙ Installation & Usage Guide
+
+## 📌 Requirements
+
+Make sure Python is installed on your system.
+
+Check Python version:
+
+```bash
+python --version
+```
+
+or
+
+```bash
+python3 --version
+```
+
+---
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/email-analyzer.git
+```
+
+Move into the project folder:
+
+```bash
+cd email-analyzer
+```
+
+---
+
+## ▶ Run the Tool
+
+Run the Python script:
+
+```bash
+python email_analysis.py
+```
+
+or
+
+```bash
+python3 email_analysis.py
+```
+
+---
+
+## 🖥 How to Use
+
+1. Launch the application
+2. Click on **Upload Email File**
+3. Select a `.txt` or `.eml` email file
+4. The tool will automatically:
+
+   * Analyze email headers
+   * Extract URLs & IPs
+   * Detect phishing indicators
+   * Identify suspicious attachments
+   * Generate a final security verdict
+
+---
+
+## 📦 Optional Future Dependencies
+
+For future integrations like VirusTotal API or advanced email parsing:
+
+```bash
+pip install requests
+```
+
+```bash
+pip install dnspython
+```
+
+```bash
+pip install email-validator
+```
+
+---
+
+## 🚀 Supported File Types
+
+* `.txt`
+* `.eml`
+
+---
+
+## 🛡 Recommended Environment
+
+* Windows 10/11
+* Kali Linux
+* Ubuntu
+* Python 3.9+
+
+---
+
+## 📧 Example Use Cases
+
+* SOC Email Investigation
+* Phishing Email Analysis
+* Threat Hunting
+* Cybersecurity Learning Labs
+* Incident Response Practice
